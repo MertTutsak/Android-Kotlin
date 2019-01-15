@@ -15,17 +15,6 @@ class MainActivity : Activity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        switchComponent.setOnClickListener {
-            object : View.OnClickListener {
-                override fun onClick(v: View?) {
-                    if (switchComponent.isChecked) {
-                        normal()
-                    } else {
-                        RxKotlin()
-                    }
-                }
-            }
-        }
         RxKotlin()
     }
 
