@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Planet\'s Weight</string>
+
+    <string name="app_admob_id">ca-app-pub-7274357474798082~4276919450</string>
+    <string name="banner_ad_unit_id_down">ca-app-pub-7274357474798082/1364526091</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-7274357474798082/8500193353</string>
+</resources>
