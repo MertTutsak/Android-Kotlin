@@ -96,7 +96,6 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
-
         }
     }
 
@@ -120,7 +119,7 @@ class MainActivity : AppCompatActivity() {
                     Log.d(this@MainActivity.javaClass.simpleName, "Banner Ad Closed")
                 }
             }
-            //adView_bottom.loadAd(AdRequest.Builder().build())
+            adView_bottom.loadAd(AdRequest.Builder().build())
         }
         gridView.adapter = adapter
     }
